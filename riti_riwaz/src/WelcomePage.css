@@ -1,0 +1,34 @@
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.welcome-page h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-page button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-page button:hover {
+  background-color: #ff1493;
+}

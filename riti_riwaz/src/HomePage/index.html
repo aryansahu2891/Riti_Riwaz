@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Wedding Planner App</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="homepage">
+        <div class="header">
+            <div class="app-name">
+                <h1>Wedding Planner</h1>
+            </div>
+            <div class="slider-container">
+                <div class="slider">
+                    {images.map((image, i) => (
+                    <div class="slide" key={i}>
+                        <img src={image} alt={`slide-${i}`} />
+                    </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            ...
+        </div>
+        <div class="quotes">
+            ...
+        </div>
+        <div class="about">
+            ...
+        </div>
+    </div>
+</body>
+
+</html>

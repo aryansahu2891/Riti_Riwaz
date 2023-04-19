@@ -1,0 +1,120 @@
+/* Center app name in top left corner */
+#app-name {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Styling for image slider */
+.slider-container {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 33.33%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+/* Styling for service section */
+.services {
+  padding: 50px 0;
+}
+
+.services h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.services li {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.services li h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services li p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styling for quote section */
+.quote {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.quote h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.quote p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Styling for about section */
+.about {
+  padding: 50px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Styling for button */
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+}
